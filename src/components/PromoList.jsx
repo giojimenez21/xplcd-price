@@ -9,7 +9,7 @@ export const PromoList = () => {
     const [promos, setPromos] = useState([]);
     const [loading, setLoading] = useState(true);
     const columns = [
-        { field: "modelo", headerName: "MODELO", width: 170 },
+        { field: "modelo", headerName: "MODELO COMPATIBLE", width: 170 },
         { field: "precio", headerName: "PRECIO", width: 100 },
         { field: "preciopromocion", headerName: "PRECIO X2", width: 155 },
     ];
